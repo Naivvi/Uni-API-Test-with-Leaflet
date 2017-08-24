@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="header">
+		<h1 class="header__name"> Where? </h1>
+		<input  type="text"  id="header" class="header__city" autocomplete="off" placeholder="City">
+	</section>
+	<div class="cityinput">
+		<h1 class="cityinput__name">Where?</h1>
+		<form id="form">
+				<input  type="text" id="city" class="city" autocomplete="off" placeholder="City">
+
+		</form>
+	</div>
+
+	<section id="map">
+	</section>
+	
+	<div class="openIcon">
+		<i class="fa openIcon__i fa-2x fa-map" aria-hidden="true"></i>
+	</div>
+<!-- 
+	<section class="history">
+	<div class="history__container hide">
+		<h1 class="history__title"></h1>
+		<div class="history__city">London</div>
+
+	</div>
+
+	</section>
+ -->
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
